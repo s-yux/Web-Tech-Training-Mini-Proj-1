@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link href="tictactoe.css" type="text/css" rel="stylesheet">
+    <script src="tictactoe.js" type="text/javascript" rel="script"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div id="main">
+
+    <p id="instructions">
+        First Player starts as <b>Player X</b>
+        <br>
+        Second Player as <b>Player 0</b>
+    </p>
+
+    <p id="print"></p>
+
+    <br>
+
+    <input type="text" id="b1" onclick="box1(); myfunc();" readonly>
+    <input type="text" id="b2" onclick="box2(); myfunc();" readonly>
+    <input type="text" id="b3" onclick="box3(); myfunc();" readonly>
+
+    <br>
+    <br>
+
+    <input type="text" id="b4" onclick="box4(); myfunc();" readonly>
+    <input type="text" id="b5" onclick="box5(); myfunc();" readonly>
+    <input type="text" id="b6" onclick="box6(); myfunc();" readonly>
+
+    <br>
+    <br>
+
+    <input type="text" id="b7" onclick="box7(); myfunc();" readonly>
+    <input type="text" id="b8" onclick="box8();myfunc();" readonly>
+    <input type="text" id="b9" onclick="box9();myfunc();" readonly>
+
+    <br>
+    <br>
+    <br>
+
+    <button id="reset" onclick="resetBoard()">
+        RESET
+    </button>
+
+</div>
+</body>
+</html>
